@@ -1,0 +1,1 @@
+// v1.0 nav toggle document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector(".nav__toggle"),e=document.querySelector(".nav__list");t&&t.addEventListener("click",function(){e.classList.toggle("nav__list--open")})});

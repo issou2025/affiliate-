@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{{title}}</title>
+<meta name="description" content="{{description}}"/>
+<link rel="stylesheet" href="/css/base.css"/>
+<link rel="stylesheet" href="/css/layout.css"/>
+<link rel="stylesheet" href="/css/modules.css"/>
+<link rel="stylesheet" href="/css/theme.css"/>
+<script type="application/ld+json">{ "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "{{title}}", "potentialAction": { "@type": "CalculateAction", "target": "{{url}}" }}</script>
+</head>
+<body>
+<!--#include file="includes/header.html" -->
+<main class="main">
+<h1>{{title}}</h1>
+<p>{{intro}}</p>
+<form class="calc calc--{{tool}}">
+<!-- calculator inputs -->
+</form>
+<section class="adsense adsense--in-article"><!-- ad code --></section>
+<section class="faq" aria-label="FAQ">
+<h2>FAQs</h2>
+<dl>
+<dt>Question?</dt><dd>Answer.</dd>
+</dl>
+<script type="application/ld+json">{ "@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Question?","acceptedAnswer":{"@type":"Answer","text":"Answer."}}]}</script>
+</section>
+</main>
+<!--#include file="includes/footer.html" -->
+</body>
+</html>
