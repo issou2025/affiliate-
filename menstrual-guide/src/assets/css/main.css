@@ -1,0 +1,35 @@
+@import url('./variables.css');
+
+/* Base Styles */
+body {
+  font-family: var(--font);
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--spacing);
+}
+
+header, footer {
+  background: var(--primary);
+  color: #fff;
+  padding: var(--spacing);
+}
+
+/* Responsive Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+.col {
+  flex: 1 0 100%;
+  padding: 0.5rem;
+}
+@media (min-width: 600px) {
+  .col-6 { flex: 0 0 50%; }
+}

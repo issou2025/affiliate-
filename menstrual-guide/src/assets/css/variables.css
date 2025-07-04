@@ -1,0 +1,6 @@
+/* CSS Custom Properties */
+:root {
+  --primary: #c2185b;
+  --font: 'Helvetica, Arial, sans-serif';
+  --spacing: 1rem;
+}
