@@ -1,0 +1,7 @@
+{
+  "name": "menstrual-guide",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp -R public dist && cp -R src dist/src"
+  }
+}
